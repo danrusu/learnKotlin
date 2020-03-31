@@ -6,12 +6,12 @@ fun main() {
 
     println("\nList")
     val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9);
-    for(n in numbers){
+    for (n in numbers) {
         print("$n ")
     }
 
     println("\n\nSet")
-    val uniqueNumbers = setOf(1,2,3,1,2,3,1,1,1,1,4,5,3,4)
+    val uniqueNumbers = setOf(1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 4, 5, 3, 4)
     println(uniqueNumbers)
 
     println("\nMap")
