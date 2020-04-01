@@ -10,7 +10,7 @@ fun main() {
 
 class Person(val name: String, var age: Int){
 
-    // fields and methods are by default public
+    // fields and member functions are by default public
     override fun toString(): String {
         return "Person(name='$name', age=$age)"
     }
